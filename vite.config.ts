@@ -4,7 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
 
-  plugins: [react()]
+  plugins: [react()],
+  // 1. ADD THIS: This must match your GitHub repository name exactly
+  base: '/React-MyExampleRenderFront-delme-f/',
   //,
   // server: {
   //   proxy: {
