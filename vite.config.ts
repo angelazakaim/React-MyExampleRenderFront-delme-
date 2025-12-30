@@ -6,7 +6,7 @@ export default defineConfig({
 
   plugins: [react()],
   // 1. ADD THIS: This must match your GitHub repository name exactly
-  base: '/React-MyExampleRenderFront-delme-f/',
+  base: '/React-MyExampleRenderFront-delme-/',
   //,
   // server: {
   //   proxy: {
